@@ -3,7 +3,9 @@
     <div
       class="text-center mb-12 text-white px-8 py-10 sm:p-10 max-w-[800px] bg-light-1 dark:bg-dark-c1-1 border-x-8 border-blue-1 rounded-xl shadow-lg flex flex-col gap-y-6 mx-2 md:mx-5 min-[843px]:mx-auto"
     >
-      <h1 class="text-3xl md:text-4xl font-bold text-blue-1 font-Mulish">
+      <h1
+        class="text-3xl md:text-4xl font-bold dark:text-blue-c1-1 text-blue-1 font-Mulish"
+      >
         PROFILE SEARCH
       </h1>
       <p class="text-lg dark:text-light-1">Search for a GitHub Profile</p>
@@ -16,7 +18,7 @@
         />
         <button
           type="submit"
-          class="px-4 py-2 bg-indigo-600 text-blue-1 rounded-lg hover:bg-indigo-500 mt-5 border hover:bg-gradient-to-tr from-blue-1 to-blue-4 hover:text-light-1"
+          class="px-4 py-2 bg-indigo-600 text-blue-1 dark:text-blue-c1-1 rounded-lg hover:bg-indigo-500 mt-5 border hover:bg-gradient-to-tr from-blue-1 to-blue-4 hover:text-light-1 dark:hover:text-light-1"
         >
           Search
         </button>
@@ -39,7 +41,7 @@
             'min-[580px]:w-[45%] md:w-[30%]': userSearch.length >= 3,
           }"
         >
-          <img alt="avatar" :src="user.avatar_url" class="w-[50%]" />
+          <img alt="avatar" :src="user.avatar_url" class="w-[50%] rounded-lg" />
           <div class="text px-6 py-4">
             <h1 class="dark:text-light-1 font-bold text-xl mb-6">
               {{ user.login }}
@@ -47,8 +49,9 @@
             <a
               :href="user.html_url"
               target="_blank"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-blue-1 border hover:bg-blue-1 hover:text-light-1 hover:border-light-1 transition duration-150 ease-in"
-              >View Profile</a
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-blue-1 border hover:bg-blue-1 dark:text-blue-c1-1 dark:hover:text-light-1 hover:text-light-1 hover:border-light-1 transition duration-150 ease-in flex items-center"
+            >
+              View Profile</a
             >
           </div>
         </div>

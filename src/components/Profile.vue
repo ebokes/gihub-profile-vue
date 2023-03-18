@@ -46,37 +46,34 @@ onMounted(async () => {
           />
           <span>My Profile</span></a
         >
-        <span class="flex mt-3 gap-x-2">
-          <img
-            class="w-[20px]"
-            src="../assets/portfolio-svgrepo-com.svg"
-            alt="bio"
+        <span class="flex mt-3 gap-x-2 items-center">
+          <font-awesome-icon
+            icon="fa-solid fa-briefcase"
+            class="text-blue-1 dark:text-blue-c1-1 text-xl"
           />
+
           <p class="font-light">{{ data.bio }}</p>
         </span>
-        <span class="flex gap-x-2">
-          <img
-            class="w-[20px]"
-            src="../assets/location-svgrepo-com.svg"
-            alt="location"
+        <span class="flex gap-x-2 items-center">
+          <font-awesome-icon
+            icon="fa-solid fa-map-marker-alt"
+            class="text-blue-1 dark:text-blue-c1-1 text-xl"
           />
           <p class="font-light">Edo, Nigeria</p>
         </span>
-        <span class="flex gap-x-2">
-          <img
-            class="w-[20px]"
-            src="../assets/mail-svgrepo-com.svg"
-            alt="mail"
+        <span class="flex gap-x-2 items-center">
+          <font-awesome-icon
+            icon="fa-regular fa-envelope"
+            class="text-blue-1 dark:text-blue-c1-1 text-xl"
           />
           <a class="text-blue-1 font-light" href="mailto:talk2chibu@gmail.com"
             >talk2chibu@gmail.com</a
           >
         </span>
-        <span class="flex gap-x-2">
-          <img
-            class="w-[20px]"
-            src="../assets/twitter-svgrepo-com.svg"
-            alt="twitter"
+        <span class="flex gap-x-2 items-center">
+          <font-awesome-icon
+            icon="fa-brands fa-twitter"
+            class="text-blue-1 dark:text-blue-c1-1 text-xl"
           />
           <a
             class="text-blue-1 font-light"
