@@ -1,8 +1,12 @@
 <template>
-  <div class="flex flex-col max-w-[1200px] justify-between h-screen gap-y-12">
-    <Navbar />
-    <router-view />
-    <Footer />
+  <div class="bg-light-back dark:bg-dark-back">
+    <div
+      class="flex flex-col justify-between min-h-screen gap-y-12 max-w-[1200px] mx-auto"
+    >
+      <Navbar />
+      <router-view />
+      <Footer />
+    </div>
   </div>
 </template>
 

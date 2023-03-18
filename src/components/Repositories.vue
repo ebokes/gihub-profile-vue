@@ -1,6 +1,6 @@
 <template>
   <div class="my-5" :class="{ 'dark-mode': dark }">
-    <h3 class="text-xl font-bold mb-4">Repositories</h3>
+    <h3 class="text-xl font-bold mb-4 dark:text-light-2">Repositories</h3>
     <div v-if="error">
       Sorry, I cannot fetch the repositories at the moment. Please try again
     </div>
@@ -11,7 +11,7 @@
       <div class="flex flex-wrap justify-between gap-y-8 gap-x-4 md:gap-x-10">
         <div
           @click="$router.push(`/repositories/${item.id}`)"
-          class="w-full lg:w-[46.5%] h-[160px] bg-light-1 p-3 text-blue-1 font-normal flex flex-col justify-between rounded-lg shadow-lg cursor-pointer hover:scale-[1.01] transition duration-200 ease-in-out"
+          class="w-full lg:w-[46.5%] h-[160px] bg-light-1 dark:bg-dark-c1-1 p-3 text-blue-1 dark:text-blue-c1-1 font-normal flex flex-col justify-between rounded-lg shadow-lg cursor-pointer hover:scale-[1.01] transition duration-200 ease-in-out"
           v-for="item in paginatedData"
           :key="item.id"
         >
@@ -95,7 +95,7 @@
             id="pageCountSelect"
             v-model="itemsPerPage"
             @change="changePageCount"
-            class="border-blue-1 rounded-lg py-2 px-4 text-lg font-normal text-blue-1"
+            class="border-blue-1 rounded-lg py-2 px-4 text-lg font-normal text-blue-1 dark:bg:dark-c1-1"
           >
             <option
               v-for="option in pageCountOptions"
