@@ -1,16 +1,16 @@
 <template>
   <div class="mx-2 md:mx-5">
     <div
-      class="mx-auto bg-light-1 py-[100px] shadow-lg mt-[8%] border-y-8 border-blue-1 rounded-xl max-w-[900px]"
+      class="mx-auto bg-light-1 py-[30%] lg:py-[18%] shadow-lg rounded-lg bg-cover bg-[url('../assets/bg1.jpg')]"
     >
       <div class="flex flex-col gap-y-4 items-center">
-        <h1 class="text-3xl text-center text-blue-1">
+        <h1 class="text-3xl text-center text-light-1">
           Hi, I am Chibuokem,
           <br />
-          Welcome to My Github Porfolio <br />
+          Welcome to My Github Profile <br />
         </h1>
-        <h3 class="text-center text-xl">
-          Check out my Profile <br />
+        <h3 class="text-center text-xl text-light-3">
+          Check out my Repositories <br />
           or Search for any Github User
         </h3>
         <div class="flex gap-3 flex-col sm:flex-row">
