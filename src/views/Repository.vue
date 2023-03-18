@@ -9,13 +9,11 @@ loading.value = true;
 
 const repo = ref({});
 const route = useRoute();
-console.log(route);
 
 const fetchData = async () => {
   try {
     const { repoId } = route.params;
     const res = await fetch(`https://api.github.com/repositories/${repoId}`);
-    console.log(res);
     if (!res.ok) {
       error.value = "could not fetch data";
     }

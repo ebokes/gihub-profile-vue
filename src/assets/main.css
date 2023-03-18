@@ -24,10 +24,6 @@
   }
 }
 
-:root {
-  --light-2: #eef0f5;
-}
-
 *,
 *::before,
 *::after {
@@ -38,7 +34,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--light-2);
+  background-color: #eef0f5;
 }
 
 a {

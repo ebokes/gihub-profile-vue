@@ -14,7 +14,7 @@
         />
         <button
           type="submit"
-          class="px-4 py-2 bg-indigo-600 text-blue-1 rounded-lg hover:bg-indigo-500 mt-5 border"
+          class="px-4 py-2 bg-indigo-600 text-blue-1 rounded-lg hover:bg-indigo-500 mt-5 border hover:bg-gradient-to-tr from-blue-1 to-blue-4 hover:text-light-1"
         >
           Search
         </button>
@@ -34,11 +34,11 @@
           :key="user.id"
           class="card bg-white shadow-lg rounded-lg overflow-hidden max-w-[350px] bg-light-1 flex flex-col gap-y-3 items-center p-4 text-center"
           :class="{
-            'w-[90%]': userSearch.length < 3,
-            'w-[45%] md:w-[30%]': userSearch.length >= 3,
+            // 'w-[90%]': userSearch.length < 3,
+            // 'w-[45%] md:w-[30%]': userSearch.length >= 3,
+            'min-[580px]:w-[45%] md:w-[30%]': userSearch.length >= 3,
           }"
         >
-          <!-- 'min-[580px]:w-[45%] md:w-[30%]': userSearch.length >= 3, -->
           <img alt="avatar" :src="user.avatar_url" class="w-[50%]" />
           <div class="text px-6 py-4">
             <h1 class="text-gray-900 font-bold text-xl mb-6">
