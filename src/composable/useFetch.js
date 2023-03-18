@@ -1,8 +1,8 @@
 import { ref } from "vue";
 
 export default function useFetch(url) {
-  const data = ref(null);
-  const error = ref(null);
+  const data = ref([]);
+  const error = ref("");
   const loading = ref(false);
   loading.value = true;
 
@@ -15,8 +15,9 @@ export default function useFetch(url) {
       data.value = await res.json();
     } catch (err) {
       error.value = err.message;
+    } finally {
+      loading.value = false;
     }
-    loading.value = false;
   };
   return { data, error, loading, fetchData };
 }

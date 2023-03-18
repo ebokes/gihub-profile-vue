@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
-import "./assets/global.css";
+import "./assets/main.css";
 
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -11,13 +11,27 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
 import {
-  faFolder,
+  faCodeBranch,
+  faCodeCommit,
+  faCodeFork,
   faFolderBlank,
+  faUserFriends,
+  faUserGroup,
+  faUsers,
   faUserSecret,
 } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faUserSecret, faFolderBlank);
+library.add(
+  faUserSecret,
+  faFolderBlank,
+  faCodeCommit,
+  faUserGroup,
+  faUserFriends,
+  faCodeFork,
+  faCodeBranch,
+  faUsers
+);
 
 const app = createApp(App);
 

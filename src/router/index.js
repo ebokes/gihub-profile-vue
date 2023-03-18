@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import Repositories from "../views/Repositories.vue";
 import Repository from "../views/Repository.vue";
+import Dashboard from "../views/Dashboard.vue";
 import PageNotFound from "../views/PageNotFound.vue";
+import ProfilesSearch from "../views/ProfilesSearch.vue";
 
 const routes = [
   {
@@ -11,9 +12,14 @@ const routes = [
     component: Home,
   },
   {
-    path: "/repositories",
-    name: "Repositories",
-    component: Repositories,
+    path: "/dashboard",
+    name: "Dashboard",
+    component: Dashboard,
+  },
+  {
+    path: "/profiles-search",
+    name: "ProfilesSearch",
+    component: ProfilesSearch,
   },
   {
     path: "/repositories/:repoId",
