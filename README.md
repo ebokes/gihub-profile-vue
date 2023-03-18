@@ -1,29 +1,3 @@
-# github-profile
+The GitHub web application has been developed utilizing the Vue.js library, incorporating an API call to retrieve information from GitHub's platform and populate the webpage. The application effectively presents the user's GitHub profile and repositories, in addition to offering a search functionality for discovering other users' GitHub profiles.
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+You can access the webpage via: https://gihub-profile-vue.vercel.app/
