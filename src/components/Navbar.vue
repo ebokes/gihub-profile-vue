@@ -6,7 +6,7 @@
       <router-link
         class="border border-blue-1 text-blue-1 w-8 rounded text-center"
         to="/"
-        >EB
+        >CE
       </router-link>
     </div>
     <div>
