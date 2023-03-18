@@ -14,6 +14,7 @@ import {
   faUsers,
   faUserSecret,
 } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
   faUserSecret,
@@ -23,7 +24,8 @@ library.add(
   faUserFriends,
   faCodeFork,
   faCodeBranch,
-  faUsers
+  faUsers,
+  faGithub
 );
 
 const app = createApp(App);

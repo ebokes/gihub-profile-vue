@@ -36,9 +36,15 @@ onMounted(async () => {
         class="flex flex-col items-start justify-center gap-4 px-5 mt-10 mb-2 mx-auto md:w-[363px]"
       >
         <a
-          class="px-3 py-3 w-[206px] sm:w-[60%] md:w-[300px] rounded-[5px] text-center my-[10px] text-light-1 no-underline block bg-gradient-to-tr from-blue-2 to-blue-3 mx-auto"
-          href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Febokes"
-          >Follow</a
+          class="px-3 py-3 w-[206px] sm:w-[60%] md:w-[300px] rounded-[5px] text-center my-[10px] text-light-1 no-underline bg-gradient-to-tr from-blue-2 to-blue-3 mx-auto flex gap-x-3 items-center justify-center"
+          href="https://github.com/ebokes"
+          target="_blank"
+        >
+          <font-awesome-icon
+            icon="fa-brands fa-github"
+            class="text-light-1 text-xl"
+          />
+          <span>My Profile</span></a
         >
         <span class="flex mt-3 gap-x-2">
           <img
