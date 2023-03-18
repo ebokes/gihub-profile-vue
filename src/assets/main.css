@@ -6,14 +6,11 @@
 @tailwind utilities;
 
 @layer utilities {
-  .stat-container {
+  .overview-container {
     @apply px-5 py-[10] rounded-lg flex items-center gap-3  lg:flex-grow;
   }
-  .fa-icon {
+  .overview-icon {
     @apply border border-blue-1 rounded-full p-4 w-8 h-8 flex justify-center items-center bg-[#2b64cf1b];
-  }
-  .col2 {
-    @apply flex flex-col;
   }
 
   .over {
@@ -35,7 +32,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #eef0f5;
+  background-color: #0d1117;
 }
 
 a {

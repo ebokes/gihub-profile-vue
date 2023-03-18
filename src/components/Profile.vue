@@ -13,7 +13,7 @@ onMounted(async () => {
 
 <template>
   <div
-    class="bg-light-1 w-full md:w-[363px] rounded-lg relative md:mr-5 mb-6 md:mb-0 pb-12"
+    class="bg-light-1 dark:bg-dark-c1-1 dark:text-light-2 w-full md:w-[363px] rounded-lg relative md:mr-5 mb-6 md:mb-0 pb-12"
   >
     <div class="bg-blue-1 w-full h-[100px] rounded-lg mb-[90px]"></div>
     <div v-if="error">

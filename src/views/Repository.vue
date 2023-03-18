@@ -30,7 +30,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="mx-auto w-full md:w-[750px]">
+  <div class="mx-auto w-full md:w-[750px] dark:text-light-2">
     <div class="mx-2 sm:mx-5 max-w-[750px]">
       <div v-if="error">
         Sorry, I cannot fetch this repository at the moment. Please try again
@@ -39,7 +39,9 @@ onMounted(async () => {
         <img src="../assets/loading.svg" class="mx-auto" alt="loading" />
       </div>
       <div v-else>
-        <div class="bg-light-1 p-4 sm:p-8 text-xl shadow-lg rounded-lg">
+        <div
+          class="bg-light-1 dark:bg-dark-c1-1 p-4 sm:p-8 text-xl shadow-lg rounded-lg"
+        >
           <div
             class="flex items-center justify-center py-4 text-light-1 mb-8 lin-grad"
           >
@@ -78,7 +80,7 @@ onMounted(async () => {
               <router-link
                 v-if="repo.html_url"
                 to="/dashboard"
-                class="text-blue-1 px-3 py-2 border bg-light-1 rounded-lg inline-block text-center w-fit"
+                class="text-blue-1 px-3 py-2 border bg-light-1 dark:bg-dark-c1-1 rounded-lg inline-block text-center w-fit"
                 >Back</router-link
               >
             </span>

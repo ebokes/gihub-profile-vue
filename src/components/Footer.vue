@@ -6,6 +6,6 @@
       class="text-blue-1"
       >Chibuokem Egbuchulam</a
     >
-    <p>&nbsp ©altSchoolAfrica 2023</p>
+    <p class="dark:text-dark-c2-1">&nbsp ©altSchoolAfrica 2023</p>
   </div>
 </template>
