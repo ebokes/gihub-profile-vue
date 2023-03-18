@@ -1,9 +1,11 @@
 <template>
   <div>
     <div
-      class="text-center mb-12 text-white mt-24 px-8 py-10 sm:p-10 max-w-[800px] bg-light-1 border-x-8 border-blue-1 rounded-xl shadow-lg flex flex-col gap-y-6 mx-2 md:mx-5 min-[843px]:mx-auto"
+      class="text-center mb-12 text-white px-8 py-10 sm:p-10 max-w-[800px] bg-light-1 border-x-8 border-blue-1 rounded-xl shadow-lg flex flex-col gap-y-6 mx-2 md:mx-5 min-[843px]:mx-auto"
     >
-      <h1 class="text-3xl md:text-4xl font-bold text-blue-1">PROFILE SEARCH</h1>
+      <h1 class="text-3xl md:text-4xl font-bold text-blue-1 font-Mulish">
+        PROFILE SEARCH
+      </h1>
       <p class="text-lg">Search for a GitHub Profile</p>
       <form @submit.prevent="onSubmitHandler">
         <input
@@ -21,7 +23,7 @@
       </form>
     </div>
   </div>
-  <div class="flex flex-wrap justify-center mx-2 md:mx-5 my-10">
+  <div class="flex flex-wrap justify-center mx-2 md:mx-5 mt-3 mb-10">
     <div v-if="loading" class="text-center">
       <img class="center" src="../assets/loading.svg" alt="loading" />.
     </div>

@@ -17,6 +17,9 @@ module.exports = {
       html: "#e34c26",
       css: "#563d7c",
     },
+    fontFamily: {
+      Mulish: ["Mulish", "sans-serif"],
+    },
 
     extend: {},
   },

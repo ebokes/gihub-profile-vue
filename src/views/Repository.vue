@@ -31,7 +31,7 @@ onMounted(async () => {
 
 <template>
   <div class="mx-auto w-full md:w-[750px]">
-    <div class="mx-2 sm:mx-5 max-w-[750px] mt-[15%]">
+    <div class="mx-2 sm:mx-5 max-w-[750px]">
       <div v-if="error">
         Sorry, I cannot fetch this repository at the moment. Please try again
       </div>

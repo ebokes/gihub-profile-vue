@@ -1,10 +1,12 @@
 <template>
   <div class="mx-2 md:mx-5">
     <div
-      class="mx-auto bg-light-1 py-[30%] lg:py-[18%] shadow-lg rounded-lg bg-cover bg-[url('../assets/bg1.jpg')]"
+      class="mx-auto bg-light-1 py-[30%] lg:py-[18%] shadow-lg rounded-lg bg-cover bg-[url('../assets/bg2.jpg')]"
     >
       <div class="flex flex-col gap-y-4 items-center">
-        <h1 class="text-3xl text-center text-light-1">
+        <h1
+          class="text-3xl md:text-4xl text-center text-light-1 font-Mulish font-bold"
+        >
           Hi, I am Chibuokem,
           <br />
           Welcome to My Github Profile <br />
