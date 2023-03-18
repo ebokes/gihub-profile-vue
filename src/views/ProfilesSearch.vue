@@ -36,8 +36,6 @@
           :key="user.id"
           class="card bg-white shadow-lg rounded-lg overflow-hidden max-w-[350px] bg-light-1 flex flex-col gap-y-3 items-center p-4 text-center"
           :class="{
-            // 'w-[90%]': userSearch.length < 3,
-            // 'w-[45%] md:w-[30%]': userSearch.length >= 3,
             'min-[580px]:w-[45%] md:w-[30%]': userSearch.length >= 3,
           }"
         >

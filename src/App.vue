@@ -1,11 +1,9 @@
 <template>
-  <!-- <div class="flex flex-col h-screen justify-between"> -->
   <div class="flex flex-col max-w-[1200px] justify-between h-screen gap-y-12">
     <Navbar />
     <router-view />
     <Footer />
   </div>
-  <!-- </div> -->
 </template>
 
 <script>
