@@ -4,6 +4,7 @@
       class="flex flex-col justify-between min-h-screen gap-y-12 max-w-[1200px] mx-auto"
     >
       <Navbar />
+      <div class="h-14" />
       <router-view />
       <Footer />
     </div>

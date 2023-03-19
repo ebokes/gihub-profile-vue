@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="container py-3 mx-auto flex justify-between items-start md:items-center max-w-[1200px] md:shadow-lg px-2 md:px-5 md:rounded-full bg-light-1 dark:bg-dark-c1-1"
+    class="container py-3 mx-auto flex justify-between items-start md:items-center max-w-[1200px] shadow-lg px-2 md:px-5 md:rounded-full bg-light-1 dark:bg-dark-c1-1 fixed top-0 z-20"
   >
     <div class="flex items-center justify-between">
       <router-link
@@ -9,8 +9,8 @@
         >CE
       </router-link>
     </div>
-    <div class="flex gap-x-3 items-start">
-      <button @click="toggleDark()" class="pb-1">
+    <div class="flex gap-x-6 items-start">
+      <button @click="toggleDark()">
         <img
           v-show="isDark"
           class="w-6"
@@ -30,7 +30,7 @@
             <button type="button">
               <font-awesome-icon
                 icon="fa-solid fa-bars"
-                class="text-blue-1 dark:text-blue-c1-1 text-xl"
+                class="text-blue-1 dark:text-blue-c1-1 text-2xl"
               />
             </button>
           </div>
@@ -41,7 +41,7 @@
             >
               <font-awesome-icon
                 icon="fa-solid fa-times"
-                class="text-blue-1 dark:text-blue-c1-1 text-xl"
+                class="text-blue-1 dark:text-blue-c1-1 text-2xl"
               />
             </button>
           </div>
