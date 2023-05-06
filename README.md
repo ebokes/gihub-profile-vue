@@ -18,6 +18,7 @@ To build this application,
 - The app allows users to search for GitHub profiles by entering a username in the search bar. 
 - When a user enters a username, the application fetches data from the GitHub API and displays it in the user profile card. 
 - The profile card displays the user's bio, repositories, and followers.
+- The app also features a light and dark mode 
 
 ## Why I built the project this way
 - I chose to build the project with Vue.js because of its simplicity and ease of use. Vue.js is also well-suited for building small to medium-sized applications such as this one. 
